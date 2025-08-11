@@ -719,6 +719,40 @@ footer {
   animation: slideIn 0.4s ease-out;
 }
 
+.contacto {
+  background-color: #f0f9f1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contacto h2 {
+  color: #4CAF50;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contacto p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.info-contacto {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.info-contacto li a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.info-contacto li a:hover {
+  text-decoration: underline;
+}
+
+
 @keyframes slideIn {
   from {
     opacity: 0;
